@@ -1,25 +1,33 @@
 public class Computer {
 
 //    PROPERTIES
-    private int storageSpace;
-    private String printerModel;
+    private int storage;
+    private String printer;
 
     private boolean printerConnected;
 
 //    CONSTRUCTOR
 
-    public Computer (int storageSpace, String printerModel){
-        this.storageSpace=storageSpace;
-        this.printerModel=printerModel;
+    public Computer (int storage, String printer){
+        this.storage=storage;
+        this.printer=printer;
         this.printerConnected = false;
 
     }
 
-    public int getStorageSpace() {
-        return this.storageSpace;
+    public int getStorage() {
+        return this.storage;
     }
 
-    void printerConnected()
+    public void  addStorage(int updatedStorage){
+        this.storage = storage + updatedStorage;
+    }
+
+    public String getPrinter(){
+        return this.printer;
+    }
+
+
 
 
 
