@@ -24,15 +24,20 @@ public class Runner {
 
         int area = rectangle.area();
 
-        System.out.println("Task 1: The area of my rectangle is: " + area);
-
 
 
 //        System.out.println("The rectangle has an area of " + area);
+        System.out.println("Task 1: The area of my rectangle is: " + area);
 
         // 3. Check if your rectangle is actually a square
+
 //        boolean isRectangle = <CALL YOUR METHOD HERE>
+
+        boolean isRectangle = rectangle.isSquare();
+
 //        System.out.println("Object is a square (true/false): " + isRectangle);
+
+        System.out.println("Object is a square (true/false): " + isRectangle);
     }
 
     public static void computerDemo(){

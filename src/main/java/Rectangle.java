@@ -3,6 +3,8 @@ public class Rectangle {
     private int width;
 
 
+
+
     public Rectangle (int lenght, int width){
         this.lenght =lenght;
         this.width = width;
@@ -11,6 +13,14 @@ public class Rectangle {
     public int area (){
         return lenght*width;
     }
+
+    public boolean isSquare (){
+        return lenght==width;
+
+
+    }
+
+
 }
 
 
