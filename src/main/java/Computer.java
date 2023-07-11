@@ -27,13 +27,12 @@ public class Computer {
         return this.printer;
     }
 
+    public void setPrinter(String updatedPrinter){
+        this.printer = updatedPrinter;
 
-
-
-
-    public String printMessage (String isConnected){
-        return "Your printer is connected " + isConnected + this.printerConnected;
     }
+
+
 
 
 }

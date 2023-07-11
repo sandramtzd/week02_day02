@@ -74,7 +74,7 @@ public class Runner {
 
         // 4. Use a setter to update the computer's printer property
 //        <CALL YOUR METHOD HERE>
-        computer.getPrinter();
+        computer.setPrinter("Cannon 1500");
 
 
         // Write a getter and use it below to check that the setter worked
@@ -85,6 +85,11 @@ public class Runner {
 
         System.out.println("Computer currently has a " + currentPrinter + " printer connected");
         // 5. Write a method to print a message.
+
+        
+
+
+
         // To test this works *without* a printer too you can comment out the code for question 4
 //        computer.printMessage("Hello World!");
     }
