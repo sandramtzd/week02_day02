@@ -15,25 +15,21 @@ public class Runner {
 
         Rectangle rectangle = new Rectangle (13,20);
 
-
-//        System.out.println("Task 1: My rectangle has a lenght of "+ rectangle.lenght);
-
+//        System.out.println("Task 1: My rectangle has a lenght of "+ rectangle.lenght); it didn't work
 
         // 2. Calculate the rectangle's area and store it in a variable
 //        int area = <CALL YOUR METHOD HERE>;
 
-        int area = rectangle.area();
-
-
+        int area = rectangle.calculateArea();
 
 //        System.out.println("The rectangle has an area of " + area);
-        System.out.println("Task 1: The area of my rectangle is: " + area);
+        System.out.println("The rectangle has an area of " + area);
 
         // 3. Check if your rectangle is actually a square
 
 //        boolean isRectangle = <CALL YOUR METHOD HERE>
 
-        boolean isRectangle = rectangle.isSquare();
+        boolean isRectangle = rectangle.checkifSquare();
 
 //        System.out.println("Object is a square (true/false): " + isRectangle);
 
@@ -60,9 +56,14 @@ public class Runner {
         System.out.println("My computer has "+ currentStorage + " GB storage");
 
         // 3. Add more storage to the computer
+
 //        <CALL YOUR METHOD HERE>;
+
+
         // We use the getter again to check that the amount of storage has been updated
+
 //        int newStorage = computer.getStorage();
+
 //        System.out.println("Computer now has " + newStorage + "GB storage");
 
         // 4. Use a setter to update the computer's printer property

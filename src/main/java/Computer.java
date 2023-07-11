@@ -19,5 +19,13 @@ public class Computer {
         return this.storageSpace;
     }
 
+    void printerConnected()
+
+
+
+    public String printMessage (String isConnected){
+        return "Your printer is connected " + isConnected + this.printerConnected;
+    }
+
 
 }
