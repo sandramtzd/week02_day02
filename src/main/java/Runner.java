@@ -110,6 +110,8 @@ public class Runner {
         // 1. Create a new shopping trolley
 //        ShoppingTrolley trolley = <INSTANTIATE A NEW SHOPPINGTROLLEY OBJECT HERE>;
 
+        ShoppingTrolley trolley = new ShoppingTrolley();
+
         // 2. Add an item to the trolley
 //        <CALL YOUR METHOD HERE>;
 
