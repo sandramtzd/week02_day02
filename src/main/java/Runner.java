@@ -47,9 +47,17 @@ public class Runner {
         // 1. Create a new computer object
 //        Computer computer = <INSTANTIATE A NEW COMPUTER OBJECT HERE>
 
+        Computer computer = new Computer(250, "HP530");
+
         // 2. Use a getter to find out how much storage the computer has
+
 //        int currentStorage = <CALL YOUR METHOD HERE>;
+
+        int  currentStorage = computer.getStorageSpace();
+
 //        System.out.println("Computer has " + currentStorage + "GB storage");
+
+        System.out.println("My computer has "+ currentStorage + " GB storage");
 
         // 3. Add more storage to the computer
 //        <CALL YOUR METHOD HERE>;
