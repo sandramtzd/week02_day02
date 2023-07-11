@@ -8,8 +8,8 @@ public class Rectangle {
         this.width = width;
 
     }
-    public int area (int){
-        return ""
+    public int area (){
+        return lenght*width;
     }
 }
 

@@ -18,15 +18,16 @@ public class Runner {
 
 //        System.out.println("Task 1: My rectangle has a lenght of "+ rectangle.lenght);
 
-        
-
-
-
-
-
 
         // 2. Calculate the rectangle's area and store it in a variable
 //        int area = <CALL YOUR METHOD HERE>;
+
+        int area = rectangle.area();
+
+        System.out.println("Task 1: The area of my rectangle is: " + area);
+
+
+
 //        System.out.println("The rectangle has an area of " + area);
 
         // 3. Check if your rectangle is actually a square
