@@ -32,6 +32,15 @@ public class Computer {
 
     }
 
+    public void printMessage (String message){
+        if (printer != null){
+            System.out.println(message);
+        }
+
+    }
+
+
+
 
 
 

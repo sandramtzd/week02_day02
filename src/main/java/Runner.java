@@ -84,9 +84,18 @@ public class Runner {
 //        System.out.println("Computer currently has a " + currentPrinter + " printer connected.");
 
         System.out.println("Computer currently has a " + currentPrinter + " printer connected");
+
         // 5. Write a method to print a message.
 
-        
+        computer.printMessage("Hello World");
+
+
+
+
+
+
+
+
 
 
 
