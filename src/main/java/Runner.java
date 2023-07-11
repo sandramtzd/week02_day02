@@ -13,6 +13,18 @@ public class Runner {
         // 1. Create a new rectangle object
 //        Rectangle rectangle = <INSTANTIATE A NEW RECTANGLE OBJECT HERE>
 
+        Rectangle rectangle = new Rectangle (13,20);
+
+
+//        System.out.println("Task 1: My rectangle has a lenght of "+ rectangle.lenght);
+
+        
+
+
+
+
+
+
         // 2. Calculate the rectangle's area and store it in a variable
 //        int area = <CALL YOUR METHOD HERE>;
 //        System.out.println("The rectangle has an area of " + area);
