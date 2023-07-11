@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class Runner {
 
     public static void main(String[] args) {
@@ -114,14 +116,26 @@ public class Runner {
 
         // 2. Add an item to the trolley
 //        <CALL YOUR METHOD HERE>;
+        trolley.addItem("Milk");
+
+
+// Preguntar por que tuve que importar list y no acepta arraylist
+        List newItems = trolley.getItems();
+        System.out.println(newItems);
 
         // 3. Count items in the trolley
 //        int itemCount = <CALL YOUR METHOD HERE>;
-//        System.out.println("The trolley contains " + itemCount + " items.");
+        int itemCount = trolley.countItemsInTrolley();
 
+//        System.out.println("The trolley contains " + itemCount + " items.");
+        System.out.println("The trolley contains " + itemCount + " items.");
         // 4. Check if an item is in the trolley
+
 //        boolean itemInTrolley = <CALL YOUR METHOD HERE>;
+        boolean itemInTrolley = trolley.checkIfItemInTrolley("Milk");
+
 //        System.out.println("Object is a square (true/false): " + itemInTrolley);
+        System.out.println("Item is in the trolley (true/false): " + itemInTrolley);
     }
 
 
