@@ -7,12 +7,13 @@ public class ShoppingTrolley {
 
 
     public ShoppingTrolley () {
-        items = new ArrayList<>();
+        this.items = new ArrayList<>();
 
     }
 
     public void addItem(String item){
-        items.add(item);
+
+        this.items.add(item);
     }
 
     public int countItemsInTrolley(){

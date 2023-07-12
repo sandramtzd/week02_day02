@@ -1,25 +1,26 @@
 public class Rectangle {
 
 //  PROPERTIES
-    private int lenght;
+    private int length;
     private int width;
 
 
 
 // CONSTRUCTOR
-    public Rectangle (int lenght, int width){
-        this.lenght =lenght;
+    public Rectangle (int length, int width){
+        this.length =length;
         this.width = width;
 
     }
 
 //    METHODS
     public int calculateArea (){
-        return lenght*width;
+
+        return this.length * this.width;
     }
 
     public boolean checkifSquare (){
-        return lenght==width;
+        return this.length== this.width;
 
 
     }
